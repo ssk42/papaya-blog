@@ -10,8 +10,7 @@
         "express": "^4.17.1",
         "helmet": "^4.6.0",
         "husky": "^7.0.4",
-        "lightning-base-components": "^1.13.7-alpha",
-        "lwc-services": "^3.2.2"
+        "lightning-base-components": "^1.13.7-alpha"
     },
     "engines": {
         "node": ">=10.13.0",
@@ -53,5 +52,8 @@
         "watch": "run-p watch:client watch:server",
         "watch:client": "lwc-services watch",
         "watch:server": "nodemon"
+    },
+    "devDependencies": {
+        "lwc-services": "^3.2.2"
     }
 }
