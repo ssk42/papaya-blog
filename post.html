@@ -1,0 +1,16 @@
+<template>
+    <div class="slds-p-around_large">
+        <div class="slds-box">
+            <div class="slds-text-heading_medium">
+                <lwce-link href={thePost.link}>{thePost.title}</lwce-link>
+            </div>
+            <p class="slds-p-vertical_medium slds-border_bottom">
+                <b> {thePost.formatted_date} </b>
+            </p>
+            <br />
+            <lightning-formatted-rich-text
+                value={thePost.body}
+            ></lightning-formatted-rich-text>
+        </div>
+    </div>
+</template>  
