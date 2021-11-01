@@ -4,7 +4,9 @@
     "author": "ssk42",
     "bugs": "https://github.com/ssk42/papaya-blog/issues",
     "dependencies": {
+        "@salesforce-ux/design-system": "^2.16.2",
         "compression": "^1.7.4",
+        "create-lwc-app": "^3.2.2",
         "express": "^4.17.1",
         "helmet": "^4.6.0",
         "husky": "^7.0.4",
